@@ -4,7 +4,7 @@ we propose A3, an autonomous and adaptive slot allocation scheme that adjusts th
 
 A3 is an autonomous and adaptive slot allocation scheme that adjusts the number of slots per slotframe responding to varying traffic loads.
 
-A3 source code location: ./core/net/mac/tsch/ 
+A3 source code location: ./core/net/mac/tsch/  and  ./apps/alice/
 
 A3 example code location: ./examples/ipv6/rpl-udp-alice-log/
 
