@@ -268,7 +268,7 @@
 #if WITH_ALICE
 #define ALICE_CALLBACK_PACKET_SELECTION alice_callback_packet_selection //ksh. alice packet selection
 #define ALICE_TSCH_CALLBACK_SLOTFRAME_START alice_callback_slotframe_start //ksh. alice time varying slotframe schedule
-#define A3_MANAGEMENT   1 // initial cell num per each directional link //def or undef  // A3 (IPSN 2021)
+#define A3_MANAGEMENT   1 // initial cell num per each directional link //def (use A3) or undef (not use A3)  // A3 (IPSN 2021)
 #define ALICE1_ORB2_OSB3   1 //operating mode. 1:ALICE 2:O-RB 3:O-SB.
 #endif
 /**********************************************************************/
