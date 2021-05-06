@@ -1,15 +1,19 @@
-ALICE 
+A^3 (A-cube)
 ============================
-ALICE is an autonomous link-based TSCH cell scheduling solution. ALICE uses Contiki Orchestra code as its skeleton code.
-ALICE uses three slotframes (EB, broadcast/default and unicast) as Orchestra does.
-The main difference is unicast slotframe schedule which implements time-varying scheduling and link-based scheduling.
+we propose A3, an autonomous and adaptive slot allocation scheme that adjusts the number of slots per slotframe responding to varying traffic loads. A key component of the proposed algorithm is load estimation that fathoms the traffic loads at the remote corresponding nodes in real-time without any explicit control message exchange. The proposed estimation algorithm is protocol independent in that it can be combined with any autonomous scheduling protocols, such as Orchestra and ALICE.
 
-ALICE source code location: ./apps/alice/ and ./core/net/mac/tsch/
-ALICE example code location: ./examples/ipv6/rpl-udp-alice-log/
+A3 is an autonomous and adaptive slot allocation scheme that adjusts the number of slots per slotframe responding to varying traffic loads.
 
-When using this source code, please cite the following paper: 
+A3 source code location: ./core/net/mac/tsch/ 
 
-Seohyang Kim, Hyung-Sin Kim, and Chongkwon Kim, ALICE: Autonomous Link-based Cell Scheduling for TSCH, In the 18th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN'19), April 16-18, 2019, Montreal, Canada.
+A3 example code location: ./examples/ipv6/rpl-udp-alice-log/
+
+A3 configuration: ./examples/ipv6/rpl-udp-alice-log/project-conf.h (useful values: A3_MANAGEMENT, A3_UNICAST_MAX_REGION, ORCHESTRA_CONF_UNICAST_PERIOD, PERIOD, ALICE1_ORB2_OSB3)
+
+
+When using this source code, please cite the following paper:
+
+Seohyang Kim, Hyung-Sin Kim, and Chong-kwon Kim, A3 : Adaptive Autonomous Allocation of TSCH Slots, In the 20th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN'21), May 18–21, 2021, Nashville, Tennessee, USA.
 
 
 
