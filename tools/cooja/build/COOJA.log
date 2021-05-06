@@ -1,0 +1,21 @@
+[07:08:14 - AWT-EventQueue-0] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux.config
+[07:08:14 - AWT-EventQueue-0] [Cooja.java:2886] [INFO] - External tools user settings: /home/user/.cooja.user.properties
+[07:08:22 - AWT-EventQueue-0] [Simulation.java:422] [INFO] - Simulation random seed: 123456
+[07:08:23 - AWT-EventQueue-0] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[07:08:45 - AWT-EventQueue-0] [Cooja.java:4261] [WARN] - Replaced [CONTIKI_DIR]/examples/ipv6/rpl-udp-multiDAG/udp-client.c with /home/user/Desktop/contiki_ok/examples/ipv6/rpl-udp-multiDAG/udp-client.c (default: ../../../), but could not find it. This does not have to be an error, as the file might be created later.
+[07:09:06 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make udp-server.cooja TARGET=cooja 
+[07:09:15 - AWT-EventQueue-0] [ContikiMoteType.java:404] [INFO] - Creating core communicator between Java class Lib1 and Contiki library '/home/user/Desktop/contiki_ok/examples/ipv6/rpl-udp-alice-log/obj_cooja/mtype87.cooja'
+[07:09:15 - AWT-EventQueue-0] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x3b020 ( 840 == 0x348 bytes)
+[07:09:16 - AWT-EventQueue-0] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x3b380 ( 49232 == 0xc050 bytes)
+[07:09:16 - AWT-EventQueue-0] [ContikiMoteType.java:500] [INFO] - mtype87.cooja: offsetting Cooja mote address space: 0xb1f9f000
+[07:09:16 - AWT-EventQueue-0] [ContikiMoteType.java:573] [INFO] - Parsed section at 0xb1fda020 ( 840 == 0x348 bytes)
+[07:09:16 - AWT-EventQueue-0] [ContikiMoteType.java:573] [INFO] - Parsed section at 0xb1fda380 ( 49232 == 0xc050 bytes)
+[07:09:40 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make clean TARGET=cooja 
+[07:09:41 - AWT-EventQueue-0] [CompileContiki.java:140] [INFO] - > make udp-client.cooja TARGET=cooja 
+[07:09:47 - AWT-EventQueue-0] [ContikiMoteType.java:404] [INFO] - Creating core communicator between Java class Lib2 and Contiki library '/home/user/Desktop/contiki_ok/examples/ipv6/rpl-udp-alice-log/obj_cooja/mtype571.cooja'
+[07:09:47 - AWT-EventQueue-0] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x3b020 ( 840 == 0x348 bytes)
+[07:09:48 - AWT-EventQueue-0] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x3b380 ( 48240 == 0xbc70 bytes)
+[07:09:48 - AWT-EventQueue-0] [ContikiMoteType.java:500] [INFO] - mtype571.cooja: offsetting Cooja mote address space: 0xb1eb6000
+[07:09:48 - AWT-EventQueue-0] [ContikiMoteType.java:573] [INFO] - Parsed section at 0xb1ef1020 ( 840 == 0x348 bytes)
+[07:09:48 - AWT-EventQueue-0] [ContikiMoteType.java:573] [INFO] - Parsed section at 0xb1ef1380 ( 48240 == 0xbc70 bytes)
+[07:09:55 - Thread-6] [Simulation.java:253] [INFO] - Simulation main loop started, system time: 1560834595455
