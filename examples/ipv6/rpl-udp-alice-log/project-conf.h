@@ -172,7 +172,7 @@
 //KSH.. TSCH modification..............................................//
 //#define BROADCAST_BACKOFF_ENABLED 0
 #define ORCHESTRA_CONF_COMMON_SHARED_PERIOD 17 //ksh.. original: 31. (broadcast and default slotframe length)
-#define ORCHESTRA_CONF_UNICAST_PERIOD 40
+#define ORCHESTRA_CONF_UNICAST_PERIOD 40 // consider A3_UNICAST_MAX_REGION when using A3
 //#define ORCHESTRA_CONF_EBSF_PERIOD 397//.. original: 397. (EB slotframe)
 
 
@@ -276,7 +276,7 @@
 
 
 #ifdef A3_MANAGEMENT
-#define A3_UNICAST_MAX_REGION 8 //initial cell num per each directional link // 2 4 8
+#define A3_UNICAST_MAX_REGION 8 // A3's the number of maximum region
 
 
 #define LQ_PRINT 0 //link quality print at the example/client.c and server.c //1:print  0:not print
