@@ -1,6 +1,6 @@
-A^3 (A-cube)
+A3 (A-cube)
 ============================
-we propose A3, an autonomous and adaptive slot allocation scheme that adjusts the number of slots per slotframe responding to varying traffic loads. A key component of the proposed algorithm is load estimation that fathoms the traffic loads at the remote corresponding nodes in real-time without any explicit control message exchange. The proposed estimation algorithm is protocol independent in that it can be combined with any autonomous scheduling protocols, such as Orchestra and ALICE.
+We propose A3, an autonomous and adaptive slot allocation scheme that adjusts the number of slots per slotframe responding to varying traffic loads. A key component of the proposed algorithm is load estimation that fathoms the traffic loads at the remote corresponding nodes in real-time without any explicit control message exchange. The proposed estimation algorithm is protocol independent in that it can be combined with any autonomous scheduling protocols, such as Orchestra and ALICE.
 
 A3 is an autonomous and adaptive slot allocation scheme that adjusts the number of slots per slotframe responding to varying traffic loads.
 
